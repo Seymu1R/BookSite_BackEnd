@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y5nWak0pyKQ7k4A0MRiRjPp3U5TyX10GpG5KiK5TU0wEK48h948oJUySHAM3ggfVpHJnshE8iOOMnAjsbL4VPg==",
+  "dgSpecHash": "7/JJWh0dTOSiOv7i8vK09diK+t+lTZxCSpWmmea8isCM4s6qghKdOuxJr1WR5LAxQSfCmU810arO0I3fL1wGrQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Seymur\\Desktop\\Practice_API\\Practice_Api2\\Practice_Api_2\\src\\Infrastructure\\Persistance\\Persistance.csproj",
+  "projectFilePath": "C:\\Users\\Seymur\\Desktop\\Practice_API\\Practice_Api2\\Book_Site_BackEnd\\src\\Infrastructure\\Persistance\\Persistance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Seymur\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Seymur\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sEABinKodPVOJcBoMQvxALLZeEwTM4EXr9hqvnKULZoC8UWQAqKJf6ell0gTJbAm9LM8n1J+QSNrD1z7SZj07A==",
+  "dgSpecHash": "/g9W2jA5ysMi+596LBJMZXIbifNvYB6g4bXcXFIHDQ8KTB4Vx+4SK/DM/RVFgvn06PPZuNMYQKJKDBW08qnD0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Seymur\\Desktop\\Practice_API\\Practice_Api2\\Practice_Api_2\\src\\Core\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\Seymur\\Desktop\\Practice_API\\Practice_Api2\\Book_Site_BackEnd\\src\\Core\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

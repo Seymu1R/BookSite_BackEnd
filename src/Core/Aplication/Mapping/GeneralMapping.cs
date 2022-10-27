@@ -1,5 +1,6 @@
 ﻿using Aplication.Dtos;
 using Aplication.Features.Comands.CreateBookComand;
+using Aplication.Features.Comands.UpdateBookComand;
 using AutoMapper;
 using Domain.Entities;
 using System;
@@ -20,6 +21,8 @@ namespace Aplication.Mapping
                 .ReverseMap();
             CreateMap<Book, CreateBookComand>()
                 .ReverseMap();
+            CreateMap<Book, UpdateBookComand>().
+                ReverseMap();
         }
     }
 }

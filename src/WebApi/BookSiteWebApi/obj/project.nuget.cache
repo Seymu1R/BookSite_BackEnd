@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r6svxzXqt7jxSUzhu4EZ0U2BZ0VRAHHjCI5KrEDHjgNB/wlR8rP4WvXEdtTWiL/2rKrHnSqO1voCLLczPahXiw==",
+  "dgSpecHash": "kkOHgZt2zO+K6uIe/5gAmmhQ29RJRafzEC/IpMerGjkhqY1DbatcrPJcRKYSbBZRMIHe/YzGoz0YZdcxJ+XXPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Seymur\\Desktop\\Practice_API\\Practice_Api2\\Practice_Api_2\\src\\WebApi\\BookSiteWebApi\\BookSiteWebApi.csproj",
+  "projectFilePath": "C:\\Users\\Seymur\\Desktop\\Practice_API\\Practice_Api2\\Book_Site_BackEnd\\src\\WebApi\\BookSiteWebApi\\BookSiteWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Seymur\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Seymur\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

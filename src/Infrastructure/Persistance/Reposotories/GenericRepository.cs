@@ -28,9 +28,9 @@ namespace Persistance.Reposotories
 
         public async Task<bool> DeleteItemAsync(int id)
         {
-            T Item= await _context.Set<T>().FindAsync(id);
+            T Item = await _context.Set<T>().FindAsync(id);
             if (Item is null) return false;
-             _context.Set<T>().Remove(Item);
+            _context.Set<T>().Remove(Item);
             if (await _context.SaveChangesAsync() <= 0) return false;
             return true;
 
@@ -38,14 +38,20 @@ namespace Persistance.Reposotories
 
         public async Task<IEnumerable<T>> GetAllItemAsync()
         {
-            IEnumerable<T>list =  await _context.Set<T>().ToListAsync();
+            IEnumerable<T> list = await _context.Set<T>().ToListAsync();
             return list;
         }
 
         public async Task<T> GetItemAsync(int id)
         {
-            T Item = await _context.Set<T>().FindAsync(id);           
+            T Item = await _context.Set<T>().FindAsync(id);
             return Item;
+        }
+
+        public async Task<bool> Successing()
+        {
+            bool Success = await _context.SaveChangesAsync() >= 0 ? true : false;
+            return Success;
         }
 
         public async Task<T> UpdateItemAsync(int id)
@@ -53,5 +59,5 @@ namespace Persistance.Reposotories
             T Item = await _context.Set<T>().FindAsync(id);
             return Item;
         }
-    }
+    }  
 }

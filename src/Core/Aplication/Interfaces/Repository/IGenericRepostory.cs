@@ -15,5 +15,6 @@ namespace Aplication.Interfaces.Repository
         Task<bool> DeleteItemAsync(int id);
         Task<bool> AddItemAsync(T body);
         Task<T> UpdateItemAsync(int id);
+        Task<bool> Successing();
     }
 }

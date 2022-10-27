@@ -8,6 +8,7 @@ namespace Aplication.Dtos
 {
     public class AllBookView
     {
+        public int Id { get; set; }
         public string Name { get; set;}
         public double Price { get; set;}
         public int PageCount { get; set;}

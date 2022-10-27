@@ -1,4 +1,6 @@
 ﻿using Aplication.Features.Comands.CreateBookComand;
+using Aplication.Features.Comands.CreateDeleteComand;
+using Aplication.Features.Comands.UpdateBookComand;
 using Aplication.Features.Queries.GetAllBook;
 using Aplication.Features.Queries.GetBook;
 using Aplication.Interfaces.Repository;
@@ -40,6 +42,19 @@ namespace BookSiteWebApi.Controllers
         [Route("AddBook")]
         public async Task<ActionResult<bool>> AddBook(CreateBookComand comand)
         {
+            return Ok(await _mediator.Send(comand));
+        }
+        [HttpDelete]
+        [Route("DeleteBook/{id:int}")]
+        public async Task<ActionResult<bool>> DeleteBook([FromRoute]int id) {
+            var comand = new DeleteBookComand() { Id = id };
+            return Ok(await _mediator.Send(comand));
+        }
+        [HttpPut]
+        [Route("UpdateBook/{id:int}")]
+        public async Task<ActionResult<bool>> UpdateBook([FromRoute] int id,UpdateBookComand comand) 
+        {
+            comand.id = id;
             return Ok(await _mediator.Send(comand));
         }
     }
